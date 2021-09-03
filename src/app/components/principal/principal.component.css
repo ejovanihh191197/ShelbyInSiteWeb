@@ -1,0 +1,17 @@
+.cajaPrincipal{
+    background-image: url("../../../assets/img/pagina/Imagen3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    padding-top: 30px;
+}
+
+.cajaItem{
+    background:rgba(0,0,0,0.75);
+    border-radius: 14px 14px 14px 14px;
+    -moz-border-radius: 14px 14px 14px 14px;
+    -webkit-border-radius: 14px 14px 14px 14px;
+    border: 0px solid #000000;
+    padding: 15px;
+    margin-bottom: 10px;
+}
