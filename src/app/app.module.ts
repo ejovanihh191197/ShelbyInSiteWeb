@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './shared/menu/menu.component';
 import { PrincipalComponent } from './components/principal/principal.component';
+import { PiePaginaComponent } from './shared/pie-pagina/pie-pagina.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    PiePaginaComponent
   ],
   imports: [
     BrowserModule,
