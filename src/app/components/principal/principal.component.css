@@ -1,11 +1,13 @@
 .cajaPrincipal{
-    background-image: url("../../../assets/img/pagina/Imagen4.png");
+    background-image: url("../../../assets/img/pagina/Principal.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: azure;
     padding-top: 30px;
+
 }
+
 
 .cajaItem{
     background:rgba(0,0,0,0.75);
@@ -15,4 +17,5 @@
     border: 0px solid #000000;
     padding: 15px;
     margin-bottom: 10px;
+   
 }
