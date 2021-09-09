@@ -7,6 +7,7 @@ import { MenuComponent } from './shared/menu/menu.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { PiePaginaComponent } from './shared/pie-pagina/pie-pagina.component';
 import { SolucionesComponent } from './components/soluciones/soluciones.component';
+import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SolucionesComponent } from './components/soluciones/soluciones.componen
     MenuComponent,
     PrincipalComponent,
     PiePaginaComponent,
-    SolucionesComponent
+    SolucionesComponent,
+    QuienesSomosComponent
   ],
   imports: [
     BrowserModule,
