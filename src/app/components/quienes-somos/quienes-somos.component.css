@@ -1,3 +1,5 @@
+
+
 .cajaItem{
     background:rgba(0,0,0,0.75);
     border-radius: 14px 14px 14px 14px;
@@ -10,7 +12,7 @@
 }
 
 .cajaPrincipal{
-    background-image: url("../../../assets/img/pagina/Principal.png");
+    background-image: url("../../../assets/img/pagina/Tierra.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
