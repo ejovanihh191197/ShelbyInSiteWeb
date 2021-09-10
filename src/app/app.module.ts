@@ -8,6 +8,8 @@ import { PrincipalComponent } from './components/principal/principal.component';
 import { PiePaginaComponent } from './shared/pie-pagina/pie-pagina.component';
 import { SolucionesComponent } from './components/soluciones/soluciones.component';
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
+import { ProductoUnoComponent } from './components/producto-uno/producto-uno.component';
+import { ProductoDosComponent } from './components/producto-dos/producto-dos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.
     PrincipalComponent,
     PiePaginaComponent,
     SolucionesComponent,
-    QuienesSomosComponent
+    QuienesSomosComponent,
+    ProductoUnoComponent,
+    ProductoDosComponent
   ],
   imports: [
     BrowserModule,
