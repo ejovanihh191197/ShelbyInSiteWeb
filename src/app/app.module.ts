@@ -10,6 +10,7 @@ import { SolucionesComponent } from './components/soluciones/soluciones.componen
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
 import { ProductoUnoComponent } from './components/producto-uno/producto-uno.component';
 import { ProductoDosComponent } from './components/producto-dos/producto-dos.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { ProductoDosComponent } from './components/producto-dos/producto-dos.com
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
